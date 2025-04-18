@@ -55,6 +55,9 @@
       margin-block: 48px;
     }
   }
+  &__message-input {
+    resize: none;
+  }
 }
 
 .title {
@@ -148,6 +151,10 @@
 
   @include tablet {
     margin-bottom: 48px;
+  }
+
+  &:hover {
+    transform: scale(1.1);
   }
 }
 

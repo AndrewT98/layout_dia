@@ -58,6 +58,10 @@
   text-transform: uppercase;
   color: #fff;
   white-space: nowrap;
+
+  &:hover {
+    transform: scale(1.2);
+  }
 }
 
 .menu-icon {
