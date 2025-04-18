@@ -126,6 +126,10 @@
     margin-bottom: 8px;
   }
 
+  &__icon-link {
+    text-decoration: none;
+  }
+
   @include small-desktop {
     &__twitter-icon:hover {
       content: url(../icons/twitter-icon-hovered.png);
